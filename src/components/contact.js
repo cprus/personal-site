@@ -9,16 +9,8 @@ export default () => {
             <div className="containerwidth contactform">
                 <h2>Contact Me!</h2>
 
-                <form action="mailto:collinprusse@mac.com" method="post" enctype="text/plain">
-                Name:
-                <input type="text" name="name"/><br/>
-                E-mail:
-                <input type="text" name="mail"/><br/>
-                Comment:
-                <input type="textarea" name="comment" size="50"/><br/>
-                <input type="submit" value="Send"/>
-                <input type="reset" value="Reset"/>
-                </form>
+                <p>Please feel free to contact me with any questions about my work or any possible employment opportunities. The best way to get a hold of me is to send me a message on LinkedIn. You can find my profile <a href="https://www.linkedin.com/in/collin-prusse/" target="_blank"><span id="span">here.</span></a></p>
+
             </div>
             <Footer/>
             </div>

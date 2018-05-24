@@ -1,0 +1,27 @@
+/* CONTACT FORM */
+.contactbody {
+    background-color: #142c82;
+    width: 100%;
+}
+.contactform {
+    color: white;
+    padding-bottom: 3em;
+}
+.contactform h2 {
+    font-size: 3em;
+    margin-bottom: 2em;
+}
+.contactform p {
+    line-height: 2em;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-bottom: 15em;
+}
+#span {
+    color: #b8d6fc;
+    text-decoration: underline;
+}
+.contactform i {
+    color: white;
+    font-size: 2em;
+}

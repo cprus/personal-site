@@ -1,0 +1,33 @@
+/* PORTFOLIO */
+.portbody {
+    background-color: #b8d6fc;
+    padding-top: 20px;
+}
+.portitems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portitems img {
+    width: 14em;
+    border-radius: 2%;
+    box-shadow: 1px 1px 18px #272728;
+}
+.port-item {
+    width: 14em;
+}
+@media (max-width:45rem) {
+    .portitems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .portbody {
+        text-align: center;
+    }
+    .port-item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+}

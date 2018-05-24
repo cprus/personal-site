@@ -17,9 +17,10 @@ export default () => {
                     <div className="aboutinfo">
                     <h1>About Collin</h1>
                     <p>{aboutMe}</p>
-
+                    <div className='aboutlinks'>
                     <a href="https://github.com/cprus" target="_blank">View My Github</a>
                     <a href="https://www.linkedin.com/in/collin-prusse/" target="_blank">View My LinkedIn</a>
+                    </div>
                     </div>
                 </div>
                 <Footer />

@@ -1,0 +1,19 @@
+/* NOT FOUND */
+.notfound {
+    background-color: #142c82;
+    min-height: 100%;
+    width: 100%;
+    color: white;
+    position: absolute; top: 0; left: 0;
+}
+.notfound h4 {
+    font-size: 4em;
+}
+.notfound a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+.notfound a:hover {
+    color: #b8d6fc;
+}
