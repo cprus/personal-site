@@ -12,6 +12,10 @@
     width: 14em;
     border-radius: 2%;
     box-shadow: 1px 1px 18px #272728;
+    transition: transform .2s;
+}
+.portitems img:hover {
+    transform: scale(1.1);
 }
 .port-item {
     width: 14em;
