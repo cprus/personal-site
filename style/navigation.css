@@ -19,7 +19,9 @@
     flex-direction: row;
 }
 #logo {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 #logo a {
     list-style: none;
@@ -42,10 +44,10 @@
     margin-bottom: -15px;
 }
 #nav-bar ul {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
 #nav-bar ul li {
-    display: inline-block;
     list-style: none;
     margin-left: 20px;
     color: white;
